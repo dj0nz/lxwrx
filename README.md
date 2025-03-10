@@ -13,3 +13,6 @@ Create ipset containing Zscaler hubs to use with iptables firewall
 
 ### [blacklist.py](blacklist.py)
 Create ipsets to block known attackers by downloading ip lists from various "threat intelligence" sources
+
+### [invenrory_scan.sh](invenrory_scan.sh)
+Very basic local network inventory scan using nmap, with mac vendor lookup. Needs internet connectivity.

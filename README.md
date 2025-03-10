@@ -2,7 +2,7 @@
 
 A collection of (partially experimental) bash and python scripts. 
 
-### iperf-server 
+### [iperf-server.sh](iperf-server.sh)
 Simple iperf server start/stop/status script
 
 ### [test-grid.sh](test-grid.sh) 

@@ -16,3 +16,6 @@ Create ipsets to block known attackers by downloading ip lists from various "thr
 
 ### [invenrory_scan.sh](invenrory_scan.sh)
 Very basic local network inventory scan using nmap, with mac vendor lookup. Needs internet connectivity.
+
+### [wipedisk.sh](wipedisk.sh)
+Small utility to wipe data from disks using two different alternative methods (safe or quick).

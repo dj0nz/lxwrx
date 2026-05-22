@@ -1,11 +1,11 @@
 #!/bin/bash
 
 # Poor Man's Port Scan - Scannt ein /24 Netzwerk ohne Root-Rechte
-# Input: Netzwerk-ID  (erste drei Oktette, Default = 192.168.1)
+# Input: Netzwerk-ID  (erste drei Oktette, Default = lokales Netz)
 # Ports: 22 (SSH), 135 (RPC), 445 (SMB), 3389 (RDP)
 # dj0Nz Mai 2026
 
-NETWORK="${1:-192.168.1}"
+NETWORK="${1:-$(ip route show default | awk -F'[. ]' '{print $3"."$4"."$5}')}"
 PORTS=(22 135 445 3389)
 TIMEOUT=1
 WORKDIR=$(mktemp -d)

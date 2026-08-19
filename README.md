@@ -19,3 +19,6 @@ Very basic local network inventory scan using nmap, with mac vendor lookup. Need
 
 ### [wipedisk.sh](wipedisk.sh)
 Small utility to wipe data from disks using two different alternative methods (safe or quick).
+
+### [get_ib_zones.py](get_ib_zones.py)
+Export zones and name server groups from an Infoblox Grid using WAPI calls
